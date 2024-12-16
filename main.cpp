@@ -27,7 +27,7 @@ int main() {
     }
     std::time_t end_time = std::time(nullptr);
     double time_taken = std::difftime(end_time, start_time);
-    std::cout << "You took " << time_taken << " seconds to answer the questin." << std::endl;
+    std::cout << "You took " << time_taken << " seconds to answer the question." << std::endl;
  
     
     
